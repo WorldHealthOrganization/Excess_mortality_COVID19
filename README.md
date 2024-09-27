@@ -13,9 +13,9 @@ R version 3.6.3 and the following R packages: "tidyverse", "posterior", "INLA", 
 IMPORTANT: The INLA package should be installed as the testing (not stable) branch version 22.05.03, with instructions available at: https://www.r-inla.org/download-install.
 
 ## Directories 
-* **Expected/** contains R scripts for predicting expected mortality estimates for each year and age/sex categories over 2020-2022, on the basis of pre-pandemic 2000-2019 estimated death counts from *WHO Global Health Estimates*. Please refer to the Section 4 of the Methods document for more details.
+* **Expected/** contains R scripts for predicting expected mortality estimates for each year and age/sex categories over 2020-2022, on the basis of pre-pandemic 2000-2019 estimated death counts from *WHO Global Health Estimates*. 
 * **Observed/** contains R scripts for predicting observed mortality estimates for countries with and without reported data for each year and age/sex categories over 2020-2022. Please refer to the Section 5 of the Methods document for more details.
-* **Excess/** contains R scripts for calculating the final excess mortality estimates. Please refer to the Section 2 of the Methods document for more details.
+* **Excess/** contains R scripts for calculating the final excess mortality estimates. 
 
 ## Workflow 
 
