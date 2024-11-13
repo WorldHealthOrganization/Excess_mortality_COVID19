@@ -1,9 +1,9 @@
 # R scripts for estimating WHO excess mortality associated with the COVID-19 pandemic
 
-This repository contains R scripts designed to estimate excess mortality associated with the COVID-19 pandemic over 2020-2022. Specifically, it includes scripts that:
+This repository contains R scripts designed to estimate excess mortality associated with the COVID-19 pandemic over the period 2020-2022. Specifically, it includes scripts that:
 * predict expected mortality estimates, e.g. the estimated all-cause mortality that would have been expected if the COVID-19 pandemic had not occurred;
 * predict observed mortality estimates, e.g. the estimated all-cause mortality that have occured during the COVID-19 pandemic.
-* calculate and refine excess mortality estimates, taking into account mortality from other shocks unrelated to the COVID-19 pandemic for certain countries.
+* calculate excess mortality estimates.
 
 For more details, please refer to the WHO Methods Document available at: https://www.who.int/data/sets/global-excess-deaths-associated-with-covid-19-modelled-estimates *(2)*.
 
@@ -14,7 +14,7 @@ IMPORTANT: The INLA package should be installed as the testing (not stable) bran
 
 ## Directories 
 * **Expected/** contains R scripts for predicting expected mortality estimates for each year and age/sex categories over 2020-2022, on the basis of pre-pandemic 2000-2019 estimated death counts from *WHO Global Health Estimates*. 
-* **Observed/** contains R scripts for predicting observed mortality estimates for countries with and without reported data for each year and age/sex categories over 2020-2022. Please refer to the Section 5 of the Methods document for more details.
+* **Observed/** contains R scripts for predicting observed mortality estimates for countries with and without reported data for each year and age/sex categories over 2020-2022. 
 * **Excess/** contains R scripts for calculating the final excess mortality estimates. 
 
 ## Workflow 
